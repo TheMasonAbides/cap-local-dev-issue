@@ -10,6 +10,6 @@ type Description : String(60);
 annotate Description with @(title : '{i18n>Description}');
 
 entity Customers : cuid, managed {
-    orderNumber: CustomerNumber;
+    customerNumber: CustomerNumber;
     Description: Description;
 }
